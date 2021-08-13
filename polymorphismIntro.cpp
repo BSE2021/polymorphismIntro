@@ -43,20 +43,20 @@ public:
 
 
 	void getMarks(float l1, float l2, float l3, float l4) {
-		cout << "\nEnter Lab1 mark: ";
-		cin >> l1;
+		//cout << "\nEnter Lab1 mark: ";
+		//cin >> l1;
 		lab1 = l1;
 
-		cout << "\nEnter Lab2 mark: ";
-		cin >> l2;
+		//cout << "\nEnter Lab2 mark: ";
+		//cin >> l2;
 		lab2 = l2;
 
-		cout << "\nEnter Lab3 mark: ";
-		cin >> l3;
+		//cout << "\nEnter Lab3 mark: ";
+		//cin >> l3;
 		lab3 = l3;
 
-		cout << "\nEnter Lab4 mark: ";
-		cin >> l4;
+		//cout << "\nEnter Lab4 mark: ";
+		//cin >> l4;
 		lab4 = l4;
 	}
 
@@ -78,7 +78,7 @@ public:
 		module2 = m2;
 		module3 = m3;
 	}
-	void getMarks(float m1, float m2, float m3) {
+	void getMarks() {
 		cout << "\nEnter module1 mark: ";
 		cin >> m1;
 		cout << "\nEnter module2 mark: ";
@@ -109,25 +109,14 @@ int main() {
 
 	//child Web Ux
 	se.getIdName();
-	se.getMarks(68,75,96,77);
+	//se.getMarks(68,75,96,77);
+	se.fetMarks();
 	se.displayMarks();
 	
 	cout << "\n\n\n";
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ////base class or super class or parent class
